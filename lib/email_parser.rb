@@ -21,6 +21,7 @@ class EmailParser
         separated_email_array << x
       end 
       separated_email_array
+      binding.pry
     end 
     
   end
