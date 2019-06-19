@@ -20,9 +20,7 @@ class EmailParser
         separated_email_array << x
       end 
     end 
-      separated_email_array
-      # binding.pry
-    
+    separated_email_array.uniq
   end
   
   
