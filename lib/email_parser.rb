@@ -19,6 +19,8 @@ class EmailParser
         y = x.chomp(",")
         separated_email_array << y
         # binding.pry
+      else 
+        separated_email_array << x
       end 
       separated_email_array
       binding.pry
