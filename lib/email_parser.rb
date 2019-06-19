@@ -19,9 +19,9 @@ class EmailParser
       else 
         separated_email_array << x
       end 
-      separated_email_array
-      binding.pry
     end 
+      separated_email_array
+      # binding.pry
     
   end
   
