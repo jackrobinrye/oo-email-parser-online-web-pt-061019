@@ -13,7 +13,6 @@ class EmailParser
     email_array = @email_string.split(" ")
     separated_email_array = []
     email_array.each do |x|
-      # binding.pry
       if x[x.size - 1] == ","
         separated_email_array << x.chomp(",")
         # binding.pry
