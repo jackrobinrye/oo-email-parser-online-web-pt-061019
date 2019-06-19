@@ -22,7 +22,6 @@ class EmailParser
         binding.pry 
       end 
       separated_email_array
-      binding.pry
     end 
     
   end
