@@ -15,7 +15,6 @@ class EmailParser
     email_array.each do |x|
       if x[x.size - 1] == ","
         separated_email_array << x.chomp(",")
-        # binding.pry
       else 
         separated_email_array << x
       end 
